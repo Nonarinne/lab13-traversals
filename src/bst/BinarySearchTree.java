@@ -124,7 +124,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 		if (node == null) 
 			return;
 		
-		System.out.printf("%s", node.data);
+		System.out.print(node.data + " ");
 		preOrderRecurse(node.leftChild);
 		preOrderRecurse(node.rightChild);
 	}
