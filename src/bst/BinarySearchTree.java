@@ -153,21 +153,6 @@ public class BinarySearchTree<T extends Comparable<T>> {
 				pre.push(poppedNode.leftChild);
 			}
 		}
-		
-//		while(current != null || pre.size() > 0) {
-//			while(current != null) {
-//				pre.push(current);
-//				System.out.println(pre.peek().data + " ");
-//				current = current.leftChild;
-//			}
-//			
-//			current = pre.pop();
-//			
-//			current = current.rightChild;
-//		}
-//		
-		
-		
 					
 					
 	}
